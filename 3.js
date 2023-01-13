@@ -1,3 +1,3 @@
-let favWord = "favorite";
-let favRegex = /favou?rite/g; // Change this line
-let result = favRegex.test(favWord);
+let sampleWord = "astronaut";
+let pwRegex = /(?=\w{6})(?=\w*\d{2})/g; // Change this line
+let result = pwRegex.test(sampleWord);
