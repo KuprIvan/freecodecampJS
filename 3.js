@@ -1,4 +1,6 @@
-let hello = "   Hello, World!  ";
-let wsRegex = /(\s{2,})/g; // Change this line
-let result = hello.replace(wsRegex, ''); // Change this line
-console.log(result)
+let seven = 7;
+let three = "3";
+console.log(seven + three);
+// Only change code below this line
+console.log(typeof seven)
+console.log(typeof three)
